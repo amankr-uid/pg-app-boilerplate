@@ -37,7 +37,7 @@
     "cross-env": "^7.0.3",
     "crypto-js": "^4.1.1",
     "deepmerge": "^4.2.2",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "graphql": "^14.5.8",
     "ioredis": "^4.27.6",
     "isomorphic-fetch": "^3.0.0",
@@ -51,12 +51,12 @@
     "next": "^10.0.4",
     "next-env": "^1.1.0",
     "node-cron": "^3.0.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.11",
     "node-klaviyo": "^1.1.3",
     "pg": "^8.6.0",
     "react": "^16.10.1",
     "react-apollo": "^3.1.3",
-    "react-dom": "^16.10.1",
+    "react-dom": "^16.14.0",
     "regenerator-runtime": "^0.13.9",
     "swr": "^0.5.6",
     "use-debounce": "^7.0.0",
@@ -87,5 +87,7 @@
     "*.{js,css,json,md}": [
       "prettier --write"
     ]
-  }
+  },
+  "homepage": "https://github.com/Shopify/shopify-app-node#readme",
+  "main": "next.config.js"
 }
